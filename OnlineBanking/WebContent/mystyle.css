@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: Avenir-Roman;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.login-container{
+    width: 40%;
+    background-color:#2E5F83;
+    height: 80%;
+}
+
+
+
+.loginPage{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    padding-top: 8%;
+    background-color: #EDEDED;
+
+}
+
+
+.login-line{
+    position: absolute;
+    color: #E2065A;
+    top: 1em;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+
+.login-container{
+
+}
+.input-container-wrapper{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-top: 24%;
+}
+
+
+.input-container{
+    line-height: 3em;
+
+}
+
+.input-field{
+    background: transparent;
+    height: 60px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px inset silver;
+
+}
+
+.Login-Button{
+    padding: 12px;
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    background-color: #E2065A;
+    border: none;
+    color: silver;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+.forgot-password{
+    display: block;
+    line-height: 2.6em;
+    color: silver;
+
+}
+
+
+
+.login-side-image-container{
+    background-image: url("bank.jpg");
+    width: 40%;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
